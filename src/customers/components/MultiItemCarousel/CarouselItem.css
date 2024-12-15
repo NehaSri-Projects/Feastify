@@ -1,0 +1,14 @@
+.carousel-item {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+  
+  .slick-slide {
+    padding: 0 5px; /* Adjust this value to decrease the gap */
+  }
+  .carousel-item img {
+    cursor: pointer;
+    border-radius: 50%;
+    min-width: 80px;
+  }

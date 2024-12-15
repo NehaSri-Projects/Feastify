@@ -1,0 +1,30 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;/* Adjust this value to move the logo to the right */
+  padding-right: 150px; /* Adjust this value to move the icons to the left */
+  position: relative;
+  z-index: 50;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  width: 100px; /* Adjust the size as needed */
+}
+
+.search-icon, .avatar-icon, .cart-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* padding-top: 30px; */
+}
+
+.icon-color {
+  color: #49557e; /* Customize the color as needed */
+}

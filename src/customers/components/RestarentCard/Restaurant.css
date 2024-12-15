@@ -1,0 +1,35 @@
+.productCard {
+  margin: 10px; /* Adjusted spacing between cards */
+  width: 18rem; /* Set consistent width for cards */
+  height: 22rem;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgb(191, 191, 223);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card-image {
+  width: 100%; /* Make image take full width of the card */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure image covers the area */
+}
+
+.productCard .textPart {
+  transition: transform 0.3s ease-out;
+}
+
+.productCard:hover .textPart {
+  transform: translateY(-1rem);
+  padding: 0 10px;
+  
+}
+
+.productCard:hover {
+  transform:scale(1.05) ;
+  box-shadow: 0 4px 10px rgba(179, 153, 188, 0.2);
+
+}

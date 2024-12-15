@@ -1,0 +1,75 @@
+.banner {
+  background-image: url("C:/Users/neha sri/Desktop/miniproject/frontend/src/assets/header_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* Adjust as needed */
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 2px auto;
+  margin-top:  -15px;
+  padding: 0 10px;/* Adds space on the sides of the image */
+
+}
+.banner-content{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 50%;
+  gap: -1.5vw;
+  left: 2vw;
+  bottom: -48%;
+}
+
+.banner-content h2{
+  font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+}
+.banner-content h5{
+  color: white;
+    font-size: 1vw;
+    font-weight: 500;
+
+}
+.heading{
+  padding-left: 70px;
+  padding-right: 60px;
+}
+.heading p{
+  padding-top:1px;
+}
+
+
+.cover {
+  width: 100%;
+  height: 90vh;
+}
+
+.text-container {
+  position: relative;
+  z-index: 10;
+  text-align: left;
+  margin-bottom: 20px; /* Adjust spacing from the bottom */
+}
+.reasturant-show{
+  padding-left: 70px;
+}
+@media only screen and (max-width: 900px) {
+  .banner {
+    height: 40vh;
+  }
+  .cover {
+    height: 40vh;
+  }
+
+  .fadout {
+    bottom: -3rem;
+    height: 20vw;
+  }
+
+  .text-container {
+    margin-bottom: 10px; /* Adjust spacing for smaller screens */
+  }
+}
